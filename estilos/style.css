@@ -23,6 +23,8 @@ body{
     background-position: center center;         /* faz uma âncora da imagem no centro da tela*/
     background-repeat: no-repeat;
     background-size: cover;          /* faz a imagem ocupar 100% da viewport*/
+
+    
 }
 
 h1{
@@ -31,26 +33,15 @@ h1{
 
 main{
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.377);
-    background-image: url("../imagens/whats-app.png");
-    background-repeat: no-repeat;
-    background-position: right center;       /* ponto de ancoragem da imagem de fundo (coluna x linha)*/
-    
-    margin: auto;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
+    background-color: rgb(0, 0, 0);    
+    border-radius: 30px;
     
     
+    overflow: hidden;   
     left: 50%;              
     top: 50%;             
     transform: translate(-50%, -50%);
 
-    background-size: 30%;
-    height: 20vh;                   /* usar porcentagem da Viewport tras recursividade*/
-    width: 50vh;
-
-    text-align: left;
     
     
 }
@@ -60,16 +51,25 @@ div{
 }
 
 div h1{
-    
-    text-align: left;     /* alinhamento horizontal*/
-    vertical-align: top;    /* alinhamento vertical*/
-    font-size: 30%;            /* a fonte se adapta à largura da viewport*/
+    /*
+    text-align: left;     /* alinhamento horizontal*
+    vertical-align: top;    /* alinhamento vertical*
+    font-size: 30%;            /* a fonte se adapta à largura da viewport*
+    */
 }
 
 div a{
-    text-align: left;     /* alinhamento horizontal*/
-    vertical-align: bottom;    /* alinhamento vertical*/
+    /*
+    text-align: left;     /* alinhamento horizontal*
+    vertical-align: bottom;    /* alinhamento vertical*
     font-size: 30%;            /* a fonte se adapta à largura da viewport*/
+    
+        
+}
+
+div a img{
+
+    
 }
 
 #print{    display: none;  }    /*desabilita a box*/
