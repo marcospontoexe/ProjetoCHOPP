@@ -21,7 +21,7 @@ body{
     background-image: url('../imagens/chopp.jpg');     
     background-position: center center;         /* faz uma âncora da imagem no centro da tela*/
     background-repeat: no-repeat;
-    background-size: contain;          /* faz a imagem ocupar 100% da viewport*/
+    background-size: cover;          /* faz a imagem ocupar 100% da viewport*/
     /*
     background-position-y: -45px;
     
