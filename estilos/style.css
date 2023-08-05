@@ -23,7 +23,7 @@ body{
     background-position: center center;         /* faz uma âncora da imagem no centro da tela*/
     background-repeat: no-repeat;
     background-size: cover;          /* faz a imagem ocupar 100% da viewport*/
-    background-position-x: -20px;
+    
 
     
 }
