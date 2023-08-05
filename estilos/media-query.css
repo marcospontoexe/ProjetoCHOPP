@@ -90,3 +90,13 @@ Telas Grandes:  acima de 1200px
     #tv{    display: block;  }
     
 }
+
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 4px;
+    margin: 0px;
+    text-align: center;
+    position: fixed; 
+    clear: both; 
+}

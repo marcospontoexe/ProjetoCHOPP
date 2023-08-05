@@ -38,7 +38,7 @@ main{
     
     overflow: hidden;   
     left: 50%;              
-    top: 50%;             
+    top: 70%;             
     transform: translate(-50%, -50%);   
     
 }
@@ -66,7 +66,25 @@ div a{
 
 div a img{
     width: 100%;
+    margin: auto;
     
+}
+
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 4px;
+    margin: 0px;
+    text-align: center;
+    position: fixed; 
+    width: 100%;
+    bottom: 0px;
+    
+}
+
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
 }
 
 #print{    display: none;  }    /*desabilita a box*/
@@ -75,8 +93,5 @@ div a img{
 #pc{    display: none;  }
 #tv{    display: none;  }
 
-img{
-    margin: auto;
-    
-}
+
 
