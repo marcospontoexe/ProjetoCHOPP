@@ -22,11 +22,11 @@ body{
     background-position: center center;         /* faz uma âncora da imagem no centro da tela*/
     background-repeat: no-repeat;
     background-size: auto;          /* faz a imagem ocupar 100% da viewport*/
-    
-    background-position-y: -60px;
     /*
-    background-position-x: -300px;
+    background-position-y: -45px;
     */
+    background-position-x: -50px;
+    
 
     
 
