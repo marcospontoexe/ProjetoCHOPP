@@ -27,10 +27,13 @@ body{
     
 }
 
-h1{
+h1, p{
     text-align: center;
 }
-
+header{
+    color: rgba(185, 185, 185, 0.637);
+   
+}
 main{
     position: absolute;
     background-color: rgb(0, 0, 0);    
