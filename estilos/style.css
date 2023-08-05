@@ -19,11 +19,10 @@ html{
 body{
     background-color: rgb(109, 115, 119);
     background-image: url('../imagens/chopp.jpg');     
-
     background-position: center center;         /* faz uma âncora da imagem no centro da tela*/
     background-repeat: no-repeat;
-    background-size: cover;          /* faz a imagem ocupar 100% da viewport*/
-    background-position-x: -500px;
+    background-size: contain;          /* faz a imagem ocupar 100% da viewport*/
+    
 
     
 }
@@ -43,11 +42,15 @@ header{
    
 }
 
-header h1,p{
+header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8em;
 }
-
 
 main{
     position: absolute;
